@@ -32,10 +32,10 @@ import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/
 
 // Dropdown Product
 const products = [
-  { name: 'Beginner', description: 'Get a basic sign language learning experience', href: '#', icon: DocumentIcon },
-  { name: 'Professional', description: 'Practice skills in using sign language', href: '#', icon: DocumentTextIcon },
-  { name: 'Advanced', description: 'Hone your sign language in the neighborhood', href: '#', icon: SwatchIcon },
-  { name: 'Expert', description: 'Share your experience with everyone', href: '#', icon: RectangleGroupIcon },
+  { name: 'Beginner', description: 'Get a basic sign language learning experience', href: '/course', icon: DocumentIcon },
+  { name: 'Professional', description: 'Practice skills in using sign language', href: '/course', icon: DocumentTextIcon },
+  { name: 'Advanced', description: 'Hone your sign language in the neighborhood', href: '/course', icon: SwatchIcon },
+  { name: 'Expert', description: 'Share your experience with everyone', href: '/course', icon: RectangleGroupIcon },
 ]
 
 // Dropdown Features
@@ -176,7 +176,7 @@ export default function Example() {
             </a>
           </PopoverGroup>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+            <a href="/login" className="text-sm font-semibold leading-6 text-gray-900">
               Log in <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
@@ -314,7 +314,7 @@ export default function Example() {
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
-                href="#"
+                href="/login"
                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Get started

@@ -39,7 +39,7 @@ export default function Example() {
               </div>
 
               <a
-                href="#"
+                href="/login"
                 className="inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center mr-96 font-medium text-white hover:bg-indigo-700"
               >
                 Join Now

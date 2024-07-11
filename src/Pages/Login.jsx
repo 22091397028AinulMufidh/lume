@@ -25,7 +25,7 @@ export default function Example() {
           <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-sm">
             <form action="#" method="POST" className="space-y-6">
               <div>
-                <label htmlFor="email" className="block text-sm font-medium leading-6 text-gray-900">
+                <label htmlFor="email" className="block text-sm font-medium text-start leading-6 text-gray-900">
                   Email address
                 </label>
                 <div className="mt-2">
